@@ -1,5 +1,4 @@
 git status
 git pull
-git add notebooks/Version_3_1
-git commit -m "3_3"
+git commit -a -m "3_3"
 git push origin master
