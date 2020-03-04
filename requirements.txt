@@ -5,6 +5,10 @@ Set Alias of pip3 -> pip
 ###################################################################
 Dependency Installation at /usr/local/lib/python3.7/site-packages
 
+clang --version
+
+pip install -U setuptools
+
 pip install numpy 
 Version : 1.18.1
 
@@ -20,24 +24,8 @@ Version : 0.6
 pip install plotly 
 Version : 4.5.2
 
-https://facebook.github.io/prophet/docs/installation.html
-
-https://pystan.readthedocs.io/en/latest/installation_beginner.html
-
-brew installation
+pip install pickle-mixin
 
 To check your compiler version
-
-Open a terminal Linux: type gcc --version OSX: type clang --version
-
-pip install -U setuptools
-
-Joblib is part of the SciPy ecosystem and provides utilities for pipelining Python jobs.
-
-pickle -> Python's built in persistence model
-
-Failing to build the wheel for pyramid-arima
-
-pip install pickle-mixin
 
 
