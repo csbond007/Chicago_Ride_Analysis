@@ -1,0 +1,5 @@
+CREATE TABLE Data_Model (model_name text, 
+                         date timestamp, 
+                         rides integer , 
+                         PRIMARY KEY (model_name, date))
+                         WITH CLUSTERING ORDER BY (date DESC);
